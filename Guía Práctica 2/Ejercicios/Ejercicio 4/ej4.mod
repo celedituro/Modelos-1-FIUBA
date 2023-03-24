@@ -60,12 +60,8 @@ s.t. TPROD: TP = TAP + TBP + TCP + TDP;
 s.t. TCOMPRA: TCOMP = TAC + TBC + TCC + TDC;
 
 /* Tableros aprobados */
-s.t. TP_APROB: TPA = 0.9*TP + 0.9*TPR;
-s.t. TC_APROB: TCOMPA = 0.8*TCOMP + 0.8*TCOMPR;
-
-/* Tableros rechazados */
-s.t. TP_RECH: TPR = 0.1*TP;
-s.t. TC_RECH: TCOMPR = 0.2*TCOMP;
+s.t. TP_APROB: TPA = 0.9*TP;
+s.t. TC_APROB: TCOMPA = 0.8*TCOMP;
 
 /* Tableros aprobados por tipo */
 s.t. TP_AP: TPA = TAPA + TBPA + TCPA + TDPA;
