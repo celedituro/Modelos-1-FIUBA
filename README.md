@@ -1,4 +1,4 @@
-# Modelos-y-Optimizacion-I-FIUBA
+# Modelos y Optimización I FIUBA
 
 En este repositorio se encuentran resueltos algunos ejercicios de las guías prácticas de la materia mediante la herramienta de resolución de programas lineales GLPK.
 
