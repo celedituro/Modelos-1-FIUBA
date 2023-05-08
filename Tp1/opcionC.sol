@@ -713,8 +713,8 @@ Objective:  z = 18000 (MINimum)
    118 U[S]         *              6             0               
    119 U[R]         *              4             0               
    120 U[VDS]       *              5             0               
-   121 D[PO]                       0             0               
-   122 D[DP]                       0             0               
+   121 D[DP]                       0             0               
+   122 D[PO]                       0             0               
    123 D[DLA]                      0             0               
    124 D[PL]                       0             0               
    125 D[DN]                       0             0               

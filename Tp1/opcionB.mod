@@ -14,10 +14,10 @@ var X{r in BANCOS, i in CANTIDAD_BANCOS} >= 0, binary;
 minimize z: sum{i in BANCOS, j in BANCOS : i<>j} COSTO[i,j] * Y[i,j];
 
 ## Restricciones
-## Exactamente un banco puede ser visitado después del banco i
+## Exactamente un banco puede ser visitado antes del banco j
 s.t. Hacia{j in BANCOS}: sum{i in BANCOS: i<>j} Y[i,j] = 1;
 
-## Exactamente un banco puede ser visitado antes del banco j
+## Exactamente un banco puede ser visitado después del banco i
 s.t. Desde{i in BANCOS}: sum{j in BANCOS: i<>j} Y[i,j] = 1;
 
 ## Eliminación de subtours
